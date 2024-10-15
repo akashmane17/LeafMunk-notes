@@ -1,0 +1,92 @@
+# Ignore Maven & Gradle specific files
+target/
+out/
+build/
+*.iml
+*.ipr
+*.iws
+*.class
+
+# Ignore Spring Boot specific files
+*.jar
+*.war
+*.ear
+*.log
+
+# Ignore application configuration files (if you keep sensitive information)
+# Uncomment the lines below if you want to ignore local configuration files.
+application.yml
+application.properties
+
+# Ignore IDE-specific files
+# Eclipse
+.project
+.classpath
+.settings/
+.apt_generated/
+.factorypath
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Ignore OS-specific files
+# Windows
+Thumbs.db
+.DS_Store
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
+._*
+.Spotlight-V100
+.Trashes
+
+# Ignore dependency directories
+node_modules/
+bower_components/
+
+# Ignore compiled outputs
+bin/
+build/
+dist/
+target/
+
+# Ignore class files
+*.class
+
+# Ignore generated files
+**/generated/
+**/out/
+**/build/
+**/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Ignore test results
+test-results/
